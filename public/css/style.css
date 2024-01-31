@@ -39,7 +39,7 @@ html {
 body {
     color: #666666;
     font-size: 14px;
-    font-family: Raleway;
+    font-family:"Ubuntu", sans-serif;
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden;
@@ -635,7 +635,7 @@ button {
     font-size: 40px;
     color: #ffffff;
     font-weight: bold;
-    font-family: Raleway;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .profesinal_main {
