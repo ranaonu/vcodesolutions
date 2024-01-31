@@ -24,6 +24,8 @@ use App\Http\Controllers\PortfolioController;
 Route::get('/',[HomeController::class, 'index'])->name('index');
 Route::get('/about',[HomeController::class, 'aboutus'])->name('aboutus');
 Route::get('/contact',[HomeController::class, 'contactUs'])->name('contactUs');
+Route::get('/services',[HomeController::class, 'services'])->name('services');
+Route::get('/news',[HomeController::class, 'news'])->name('news');
 Route::post('/send-contact-us-form',[HomeController::class, 'sendContactUs'])->name('sendContactUs');
 Auth::routes();
 

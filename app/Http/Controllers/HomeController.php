@@ -37,13 +37,25 @@ class HomeController extends Controller
     public function aboutus(Request $request)
     {        
         $active_menu = 'about';
-        return view('about-us',compact('active_menu'));         
+        return view('about',compact('active_menu'));         
     }
 
     public function contactUs(Request $request)
     {   
         $active_menu = 'contact';
-        return view('contact-us',compact('active_menu'));         
+        return view('contact',compact('active_menu'));         
+    }
+
+    public function services(Request $request)
+    {   
+        $active_menu = 'services';
+        return view('services',compact('active_menu'));         
+    }
+
+    public function news(Request $request)
+    {   
+        $active_menu = 'news';
+        return view('news',compact('active_menu'));         
     }
 
 }

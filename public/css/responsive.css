@@ -145,7 +145,8 @@
         width: 24%;
     }
     .header_section::after {
-        width: 350px;
+        /*width: 350px;*/
+        width: 100%;
         height: 735px;
     }
     .banner_taital {
@@ -202,7 +203,8 @@
     }
     .header_section::after {
         height: 665px;
-        width: 410px;
+        /*width: 410px;*/
+        width: 100%;
     }
     .services_section_2 {
         padding-top: 50px;
@@ -304,7 +306,8 @@
     }
     .header_section::after {
         height: 600px;
-        width: 360px;
+        /*width: 360px;*/
+        width: 100%;
     }
     .services_section_2 {
         padding-top: 50px;
